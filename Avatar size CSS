@@ -1,0 +1,234 @@
+/*For 50px Avatars*/
+
+.forumPost .avatar:not(.nodark){
+    left: 42px ! important;
+    top: 8px ! important;
+}
+
+.post.subtopic .avatar:not(.nodark){
+    left: 5px ! important;
+    top: 7px ! important;
+}
+
+.replies .avatar:not(.nodark){
+    left: 5px ! important;
+    top: 17px ! important;
+}
+
+.topics .avatar:not(.nodark){
+    left: 10px ! important;
+    top: 10px ! important;
+}
+
+.topics .avatar:not(.nodark),
+.topics .avatar > img:not(.nodark),
+.post .avatar:not(.nodark),
+.post .avatar img:not(.nodark){
+    box-shadow: none ! important;
+    width: 50px ! important;
+    height: 50px ! important;
+}
+
+.feed .avatar:not(.nodark){
+    top: 9px ! important;
+}
+
+.forumPost .arrow a:not(.nodark){
+    right: 4px ! important;
+}
+
+.forumPost .arrow:not(.nodark){
+    left: -20px ! important;
+}
+
+/*For 55px avatars*/
+
+.forumPost .avatar:not(.nodark){
+    left: 37px ! important;
+    top: 8px ! important;
+}
+
+.post.subtopic .avatar:not(.nodark){
+    left: 4px ! important;
+    top: 7px ! important;
+}
+
+.replies .avatar:not(.nodark){
+    left: 4px ! important;
+    top: 17px ! important;
+}
+
+.topics .avatar:not(.nodark){
+    left: 10px ! important;
+    top: 10px ! important;
+}
+
+.topics .avatar:not(.nodark),
+.topics .avatar > img:not(.nodark){
+    box-shadow: none !important;
+    width: 50px ! important;
+    height: 50px ! important;
+}
+
+.post .avatar:not(.nodark),
+.post .avatar img:not(.nodark){
+    box-shadow: none !important;
+    width: 55px ! important;
+    height: 55px ! important;
+}
+
+.feed .avatar:not(.nodark){
+    top: 9px ! important;
+}
+
+.forumPost .arrow a:not(.nodark){
+    right: 4px ! important;
+}
+
+.forumPost .arrow:not(.nodark){
+    left: -20px ! important;
+}
+
+/*For 60px avatars*/
+
+.forumPost .avatar:not(.nodark){
+    left: 32px ! important;
+    top: 8px ! important;
+}
+
+.post.subtopic .avatar:not(.nodark){
+    left: 3px ! important;
+    top: 7px ! important;
+}
+
+.replies .avatar:not(.nodark){
+    left: 3px ! important;
+    top: 17px ! important;
+}
+
+.topics .avatar:not(.nodark){
+    left: 10px ! important;
+    top: 10px ! important;
+}
+
+.topics .avatar:not(.nodark),
+.topics .avatar > img:not(.nodark){
+    box-shadow: none ! important;
+    width: 50px ! important;
+    height: 50px ! important;
+}
+
+.post .avatar:not(.nodark),
+.post .avatar img:not(.nodark){
+    box-shadow: none ! important;
+    width: 60px ! important;
+    height: 60px ! important;
+}
+
+.feed .avatar:not(.nodark){
+    top: 9px ! important;
+}
+
+.forumPost .arrow a:not(.nodark){
+    right: 4px ! important;
+}
+
+.forumPost .arrow:not(.nodark){
+    left: -20px ! important;
+}
+
+/*For 65px avatars*/
+
+.forumPost .avatar:not(.nodark){
+    left: 27px ! important;
+    top: 8px ! important;
+}
+
+.post.subtopic .avatar:not(.nodark){
+    left: 2px ! important;
+    top: 7px ! important;
+}
+
+.replies .avatar:not(.nodark){
+    left: 2px ! important;
+    top: 8px ! important;
+}
+
+.topics .avatar:not(.nodark){
+    left: 10px ! important;
+    top: 10px ! important;
+}
+
+.topics .avatar:not(.nodark),
+.topics .avatar > img:not(.nodark){
+    box-shadow: none ! important;
+    width: 50px ! important;
+    height: 50px ! important;
+}
+
+.post .avatar:not(.nodark),
+.post .avatar img:not(.nodark){
+    box-shadow: none ! important;
+    width: 65px ! important;
+    height: 65px ! important;
+}
+
+.feed .avatar:not(.nodark){
+    top: -6px ! important;
+}
+
+.forumPost .arrow a:not(.nodark){
+    right: 4px ! important;
+}
+
+.forumPost .arrow:not(.nodark){
+    left: -20px ! important;
+}
+
+/*For 70px avatars*/
+
+.forumPost .avatar:not(.nodark){
+    left: 22px ! important;
+    top: 8px ! important;
+}
+
+.post.subtopic .avatar:not(.nodark){
+    left: 2px ! important;
+    top: 7px ! important;
+}
+
+.replies .avatar:not(.nodark){
+    left: 2px ! important;
+    top: 8px ! important;
+}
+
+.topics .avatar:not(.nodark){
+    left: 10px ! important;
+    top: 10px ! important;
+}
+
+.topics .avatar:not(.nodark),
+.topics .avatar > img:not(.nodark){
+    box-shadow: none ! important;
+    width: 50px ! important;
+    height: 50px ! important;
+}
+
+.post .avatar:not(.nodark),
+.post .avatar img:not(.nodark){
+    box-shadow: none ! important;
+    width: 70px ! important;
+    height: 70px ! important;
+}
+
+.feed .avatar:not(.nodark){
+    top: -6px ! important;
+}
+
+.forumPost .arrow a:not(.nodark){
+    right: 4px ! important;
+}
+
+.forumPost .arrow:not(.nodark){
+    left: -20px ! important;
+}
