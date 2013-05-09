@@ -1,0 +1,213 @@
+/*Normal link and poll, questions, answers*/
+
+.feed [data-topicid]:not(.nodark),
+.feed [data-membershipid]:not(.nodark),
+.feed [data-tag]:not(.nodark),
+.feed [data-groupId]:not(.nodark){
+    color: #6FB3D3 ! important;
+}
+
+.topics .author, .topics .author span:not(.nodark){
+    color: #5787B5 ! important;
+}
+
+.topics .author, .topics .author span:not(.nodark):hover{
+    color: #0096DB ! important;
+}
+
+.Community .column.left.side .nav_side .innerSideNav a:not(.nodark){
+    color: #5787B5 ! important;
+}
+
+.Community .column.left.side .nav_side .innerSideNav a:not(.nodark):hover{
+    color: #0096DB ! important;
+}
+
+.nav_side .innerSideNav + a:not(.nodark){
+    color: #5787B5 ! important;
+}
+
+.nav_side .innerSideNav + a:not(.nodark):hover{
+    color: #0096DB ! important;
+}
+
+.forumPost .groupName a:not(.nodark),
+.forumPost .groupName .deletedGroupName:not(.nodark){
+    color: #5787B5 ! important;
+}
+
+.forumPost .groupName a:not(.nodark):hover{
+    color: #0096DB ! important;
+}
+
+.Nav_Top .menu li > a:not(.nodark){
+    color: #D1D1D1 ! important;
+}
+
+.nav_side a:not(.nodark){
+    color: #D1D1D1 ! important;
+}
+
+.nav_side a:not(.nodark):hover{
+    color: #7D7D7D ! important;
+}
+
+.forumPost .post_title a:not(.nodark):link,
+.forumPost .post_title a:not(.nodark):visited{
+    color: #D1D1D1 ! important;
+}
+
+.forumPost .post_title a:not(.nodark):hover{
+    color: #ffffff ! important;
+}
+
+.forumPost article h1 a:not(.nodark){
+    color: #D1D1D1 ! important;
+}
+
+.groupAnnouncements li .title:not(.nodark){
+    color: #D1D1D1 ! important;
+}
+
+.dualColList .content > a:not(.nodark){
+    color: #D1D1D1 ! important;
+}
+
+.dualColList .content > .title span:not(.nodark){
+    color: #7D7D7D ! important;
+}
+
+.topics .extraInfo:not(.nodark),
+.topics .extraInfo a:not(.nodark){
+    color: #999999 ! important;
+}
+
+.groups_search_section .content > a:not(.nodark){
+    color: #D1D1D1 ! important;
+}
+
+.Foundation h3:not(.nodark){
+    color: #D1D1D1 ! important;
+}
+
+.Foundation .intro p:not(.nodark){
+    color: #D1D1D1 ! important;
+}
+
+.AboutUs .main .content_careers .content:not(.nodark),
+.AboutUs .main .content_text .content:not(.nodark){
+    color: #D1D1D1 ! important;
+}
+
+.PathView .btn_toEntireTopic:not(.nodark){
+    background: #0097DC ! important;
+}
+
+.PathView .btn_toParentPost:not(.nodark){
+    background: #0097DC ! important;
+}
+
+.forumPost .questionTopic.questionAnswered:not(.nodark):before{
+    background: url("http://www.bungie.net/img/theme/bungienet/icons/icon_correctAnswer.png") no-repeat scroll 37px center transparent ! important;
+    color: #D1D1D1 ! important;
+}
+
+.container_sort li a:not(.nodark){
+    color: #68CBF9 ! important;
+}
+
+.container_sort li a:not(.nodark):hover{
+    color: #0096DB ! important;
+}
+
+.container_sort li.on a:not(.nodark){
+    color: #D1D1D1 ! important;
+}
+
+/*Dark links and poll, questions, and answers*/
+
+.feed [data-topicid]:not(.nodark),
+.feed [data-membershipid]:not(.nodark),
+.feed [data-tag]:not(.nodark),
+.feed [data-groupId]:not(.nodark){
+    color: #888888 ! important;
+}
+
+a:not(.nodark){
+    color: #888888 ! important;
+}
+
+a:not(.nodark):hover{
+    color: #626262 ! important;
+}
+
+.topics .author, .topics .author span:not(.nodark){
+    color: #A1A1A1 ! important;
+}
+
+.topics .author, .topics .author span:not(.nodark):hover{
+    color: #D1D1D1 ! important;
+}
+
+.Foundation h3:not(.nodark){
+    color: #D1D1D1 ! important;
+}
+
+.Foundation .intro p:not(.nodark){
+    color: #D1D1D1 ! important;
+}
+
+.AboutUs .main .content_careers .content:not(.nodark),
+.AboutUs .main .content_text .content:not(.nodark){
+    color: #D1D1D1 ! important;
+}
+
+.topics .question .title:not(.nodark){
+    background: url("http://i.imgur.com/ZfLLWO7.png") no-repeat scroll left center transparent ! important;
+}
+
+.topics .answered .title:not(.nodark){
+    background: url("http://i.imgur.com/qEo5eCf.png") no-repeat scroll left center transparent ! important;
+}
+
+.topics .poll .title:not(.nodark){
+    background: url("http://i.imgur.com/D7uReIz.png") no-repeat scroll left center transparent ! important;
+}
+
+.forumPost .PollResults label .bar:not(.nodark){
+    background: url("http://i.imgur.com/O0oLrU2.png") repeat scroll 0 0 transparent ! important;
+    box-shadow: 0 1px 1px 1px #000000 inset ! important;
+}
+
+.forumPost .PollResults label:not(.nodark){
+    background: none repeat scroll 0 0 #1f1f1f ! important;
+}
+
+.forumPost .PollResults .radio:not(.nodark){
+    background: none repeat scroll 0 0 #1f1f1f ! important;
+}
+
+.forumPost .PollResults .radio:not(.nodark):before{
+    background: none repeat scroll 0 0 #000000 ! important;
+}
+
+.forumPost .PollResults label:not(.nodark){
+    color: #D1D1D1 ! important;
+}
+
+.forumPost .questionTopic.questionAnswered:not(.nodark):before{
+    background: url("http://i.imgur.com/QfW11zM.png") no-repeat scroll 37px center #1f1f1f ! important;
+    color: #7D7D7D ! important;
+}
+
+.topics .title .isPublic:not(.nodark){
+    color: #7D7D7D ! important;
+}
+
+.PathView .btn_toEntireTopic:not(.nodark){
+    background: #121212 ! important;
+}
+
+.PathView .btn_toParentPost:not(.nodark){
+    background: #121212 ! important;
+}
