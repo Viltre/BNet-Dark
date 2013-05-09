@@ -677,8 +677,6 @@ a.link_gray:not(.nodark):hover{
     text-decoration: underline ! important;
 }
 
-/*This section changes the loading spinner, credit goes to Zoid for this as well*/
-
 .spinner:not(.nodark){
     background-image: url("http://i.imgur.com/EWAtKix.gif") ! important;
 }
@@ -706,4 +704,10 @@ a.link_gray:not(.nodark):hover{
 
 .topics .replyCount:not(.nodark){
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAHCAYAAADam2dgAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MzEzNjgwRkE1QzBDMTFFMkJBOTJBMDI5MDU2RDUxRDAiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MzEzNjgwRkI1QzBDMTFFMkJBOTJBMDI5MDU2RDUxRDAiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDozMTM2ODBGODVDMEMxMUUyQkE5MkEwMjkwNTZENTFEMCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozMTM2ODBGOTVDMEMxMUUyQkE5MkEwMjkwNTZENTFEMCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgsVMJsAAAB6SURBVHjaYnR3d2cAAicgzgVicyCWBOLnQHwSiCcD8T4WIJEPxP1AzMiAACCFAUDsD8SFTECiEU0BMgCJN4AUPWPADx6DFEUA8R0cCh4AcQxI0SUg1gRiPyA+AZU8BcShQKwBkmeBCv4B4iNA/ATqkRlA/AtmHECAAQDevhUaLdq0/AAAAABJRU5ErkJggg==) no-repeat scroll right 4px transparent !important;
+}
+
+/*Replace this section with the avatar size of your choosing*/
+
+/*Replace this section with what ever colored link colors and poll options you want*/
+
 }
