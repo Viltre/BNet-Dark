@@ -1,0 +1,15 @@
+/*True Mute*/
+
+.muted:not(.nodark){
+    display: none ! important;
+}
+
+.forumPost p.unmuteAll:not(.nodark){
+    display: none ! important;
+}
+
+/*normal*/
+
+.topics .btn_expandMuted:not(.nodark){
+    background: url("http://i.imgur.com/O5ctEVT.png") no-repeat scroll 35px center transparent ! important;
+}
