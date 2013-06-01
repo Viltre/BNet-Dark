@@ -1,17 +1,49 @@
 /*Normal link and poll, questions, answers*/
 
+a:not(.nodark){
+    color: #5787B5 ! important;
+}
+
+a:not(.nodark):hover{
+    color: #0096DB ! important;
+}
+
 .feed [data-topicid]:not(.nodark),
 .feed [data-membershipid]:not(.nodark),
 .feed [data-tag]:not(.nodark),
 .feed [data-groupId]:not(.nodark){
-    color: #6FB3D3 ! important;
-}
-
-.topics .author, .topics .author span:not(.nodark){
     color: #5787B5 ! important;
 }
 
-.topics .author, .topics .author span:not(.nodark):hover{
+.feed [data-topicid]:not(.nodark):hover,
+.feed [data-membershipid]:not(.nodark):hover,
+.feed [data-tag]:not(.nodark):hover,
+.feed [data-groupId]:not(.nodark):hover{
+    color: #0096DB ! important;
+}
+
+.header_body_page h1 a:not(.nodark){
+    color: #D1D1D1 ! important;
+}
+
+.header_body_page h1 a:not(.nodark):hover{
+    color: #ffffff ! important;
+}
+
+.tagsOnPage a:not(.nodark){
+    color: #ffffff ! important;
+}
+
+.tagsOnPage a:not(.nodark):hover{
+    color: #0096DB ! important;
+}
+
+.topics .author:not(.nodark),
+.topics .author span:not(.nodark){
+    color: #5787B5 ! important;
+}
+
+.topics .author span:not(.nodark):hover{
     color: #0096DB ! important;
 }
 
@@ -101,10 +133,12 @@
 
 .PathView .btn_toEntireTopic:not(.nodark){
     background: #0097DC ! important;
+    color: #ffffff ! important;
 }
 
 .PathView .btn_toParentPost:not(.nodark){
     background: #0097DC ! important;
+    color: #ffffff ! important;
 }
 
 .forumPost .questionTopic.questionAnswered:not(.nodark):before{
@@ -124,6 +158,35 @@
     color: #D1D1D1 ! important;
 }
 
+.forumPost .PollResults label:not(.nodark){
+    background: none repeat scroll 0 0 #1f1f1f ! important;
+}
+
+.forumPost .PollResults .radio:not(.nodark){
+    background: none repeat scroll 0 0 #1f1f1f ! important;
+}
+
+.forumPost .PollResults .radio:not(.nodark):before{
+    background: none repeat scroll 0 0 #000000 ! important;
+}
+
+.forumPost .PollResults label:not(.nodark){
+    color: #ffffff ! important;
+}
+
+.pager_prevnext span:not(.nodark){
+    color: #777777 ! important;
+}
+
+.forumPost article time:not(.nodark){
+    color: #777777 ! important;
+}
+
+.topics .extraInfo:not(.nodark):hover,
+.topics .extraInfo a:not(.nodark):hover{
+    color: #D1D1D1 ! important;
+}
+
 /*Dark links and poll, questions, and answers*/
 
 .feed [data-topicid]:not(.nodark),
@@ -131,6 +194,13 @@
 .feed [data-tag]:not(.nodark),
 .feed [data-groupId]:not(.nodark){
     color: #888888 ! important;
+}
+
+.feed [data-topicid]:not(.nodark):hover,
+.feed [data-membershipid]:not(.nodark):hover,
+.feed [data-tag]:not(.nodark):hover,
+.feed [data-groupId]:not(.nodark):hover{
+    color: #626262 ! important;
 }
 
 a:not(.nodark){
@@ -141,11 +211,20 @@ a:not(.nodark):hover{
     color: #626262 ! important;
 }
 
-.topics .author, .topics .author span:not(.nodark){
+.tagsOnPage a:not(.nodark){
+    color: #ffffff ! important;
+}
+
+.tagsOnPage a:not(.nodark):hover{
+    color: #626262 ! important;
+}
+
+.topics .author:not(.nodark),
+.topics .author span:not(.nodark){
     color: #A1A1A1 ! important;
 }
 
-.topics .author, .topics .author span:not(.nodark):hover{
+.topics .author span:not(.nodark):hover{
     color: #D1D1D1 ! important;
 }
 
@@ -210,4 +289,12 @@ a:not(.nodark):hover{
 
 .PathView .btn_toParentPost:not(.nodark){
     background: #121212 ! important;
+}
+
+.pager_prevnext span:not(.nodark){
+    color: #DDDDDD ! important;
+}
+
+.forumPost article time:not(.nodark){
+    color: #BBBBBB ! important;
 }
