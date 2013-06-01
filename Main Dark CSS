@@ -187,15 +187,6 @@ img.preview:not(.nodark){
     height: 42px !important;
 }
  
-.topics .btn_expandMuted:not(.nodark){
-    background: url("http://i.imgur.com/POm3a.png") no-repeat scroll 35px center transparent !important;
-}
- 
-.x.ir:not(.nodark){
-    background: url("http://i.imgur.com/SepfU.png") no-repeat scroll center center #1f1f1f !important;
-    border: 1px solid #2d2d2d !important;
-}
- 
 #notificationSettings td:not(.nodark){
     border-color: #2d2d2d !important;
 }
@@ -265,9 +256,13 @@ a.btn_unpinAnnouncement:not(.nodark){
     box-shadow: 0px 0px 0px 1px #121212 inset, 0px 2px 8px 0px #1f1f1f !important;
 }
  
-.newsFeed .cf:not(.nodark),
-.empty:not(.nodark){
+.newsFeed .cf:not(.nodark){
     background: #121212 !important;
+    border: none !important;
+}
+
+.empty:not(.nodark){
+    background: transparent !important;
     border: none !important;
 }
  
@@ -344,57 +339,8 @@ a.btn_unpinAnnouncement:not(.nodark){
     padding-bottom: 15px !important;
 }
 
-.forumPost .header_post:not(.nodark){
-    border-left: none ! important;
-}
-
-.forumPost .header_post:not(.nodark){
-    background: -moz-linear-gradient(left,  #121212 19%, #2d2d2d 100%) !important;
-}
-
-.container_body:not(.nodark){
-    background: url("http://i.imgur.com/fB1dfjI.png") repeat scroll, url("http://i.imgur.com/tEvs6mu.png") repeat scroll ! important;
-}
-
-.Community .left.side:not(.nodark){
-    background: url("http://i.imgur.com/fB1dfjI.png") repeat scroll, url("http://i.imgur.com/tEvs6mu.png") repeat scroll ! important;
-}
-
-.column.left.side:not(.nodark){
-    background: url("http://i.imgur.com/fB1dfjI.png") repeat scroll, url("http://i.imgur.com/tEvs6mu.png") repeat scroll ! important;
-}
-
-.forumPost .postSortMode:not(.nodark){
-    line-height: 8px ! important;
-    color: #888888 ! important;
-}
-
-.forumPost .postSortMode li.on:not(.nodark){
-    min-width: 30px ! important;
-    background: #1f1f1f ! important;
-    line-height: 10px ! important;
-}
-
-.forumPost .postSortMode a:not(.nodark){
-    min-width: 30px ! important;
-    background: #1f1f1f ! important;
-    line-height: 10px ! important;
-}
-
-.forumPost .postSortMode ul:not(.nodark){
-    background: none ! important;
-}
-
-.forumPost .postSortMode:not(.nodark):hover li,
-.forumPost .postSortMode.opened li:not(.nodark){
-    border-bottom: none ! important;
-}
-
-.forumPost .postSortMode:not(.nodark):hover a{
-    color: #888888 ! important;
-}
-
-.topics .extraInfo, .topics .extraInfo a:not(.nodark){
+.topics .extraInfo:not(.nodark),
+.topics .extraInfo a:not(.nodark){
     text-shadow: none ! important;
 }
 
@@ -426,7 +372,7 @@ a.btn_unpinAnnouncement:not(.nodark){
 }
 
 .container_news:not(.nodark){
-    background: #2d2d2d ! important;
+    background: #121212 ! important;
     min-height: 600px ! important;
 }
 
@@ -599,6 +545,10 @@ a.btn_unpinAnnouncement:not(.nodark){
     background: none ! important;
 }
 
+#home .container_details .notice:not(.nodark){
+    box-shadow: none ! important;
+}
+
 #AccountSettings .btn_save:not(.nodark):after{
     color: #D1D1D1 ! important;
 }
@@ -623,7 +573,8 @@ a.btn_unpinAnnouncement:not(.nodark){
     color: #D1D1D1 ! important;
 }
 
-.btn_gray, .btn_blue[rel="disabled"]:not(.nodark){
+.btn_gray:not(.nodark),
+.btn_blue[rel="disabled"]:not(.nodark){
     background: #1f1f1f ! important;
     border: 1px solid #1f1f1f ! important;
     box-shadow: 0 2px 5px -1px rgba(0, 0, 0, 0.4), 0 0 1px 1px rgba(201, 201, 201, 0.6) inset ! important;
@@ -690,24 +641,195 @@ a.link_gray:not(.nodark):hover{
   background-color: rgba(0, 0, 0, 0.3) !important;
 }
 
+.forumPost .replies > li:not(.nodark){
+    margin: 0px ! important;
+}
+
+.forumPost .replies.first:not(.nodark){
+    padding-right: 0px ! important;
+}
+
+.PathView .btn_toParentPost:not(.nodark){
+    margin-right: 0px ! important;
+}
+
+.forumPost .questionAnswer > article > .post:not(.nodark){
+    margin-right: 0px ! important;
+}
+
+.forumPost .questionTopic.questionAnswered:not(.nodark):before{
+    margin-bottom: 0px ! important;
+    margin-right: 0px ! important;
+}
+
 .topics .avatar:not(.nodark):before{
     border: none ! important;
+    box-shadow: none ! important;
 }
 
 .forumPost article .avatar:not(.nodark):before{
     border: none ! important;
+    box-shadow: none ! important;
 }
 
 .forumPost .btn_permalink:not(.nodark){
     background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAdCAYAAABFRCf7AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6RDc2QzZBRDg1QzBCMTFFMkE2QkRERkNGRTZBNjM3QTgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6RDc2QzZBRDk1QzBCMTFFMkE2QkRERkNGRTZBNjM3QTgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDpENzZDNkFENjVDMEIxMUUyQTZCRERGQ0ZFNkE2MzdBOCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDpENzZDNkFENzVDMEIxMUUyQTZCRERGQ0ZFNkE2MzdBOCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Plo7pXUAAAPwSURBVHja7FZNT1NpFD6lt/SLUsBK20wJIKmQBpJOKgUxZpQMYWNC4qYLdalG40p/gAsSN+xN7IYJ7hoTZdGoIShFLLGMCWYSFwQYGiglbaG0vb39oMA853I7OGScWcwsOcm59573nj7v+Xh7nqtaWFgglsPDQ/3+/r6vUCh4S8Wi+uDggGpqakJane6FQa8vqwWBfeoqlcqtYqHgLpZKdAgfUqmWtbW1/p+HhjKkiIpB4dyZF8XXW1tb7RuxGO3u7tLe3h5pNBrSarVRbNY/ePUq+03H43HX+vo6ZTIZ2qtUSK1Wk06ny2GzodHR0U8MKvClIEnjKysr7cFgUPoUiRiKxSLp9Xpqampi8FZJkmawwV3LmTPjE8+fP4xGo3b2YWlra6Ouri4T/D7AdEO/Ctj9bDqdvvgxHM6/fPXKiMVg5/nzgRs3bz7eTafPpRG1yWTqFARhhp97e3vJ6XSmQqHQg7W1teXt7W360e0Olstlq9lsnkAGFwTUpTaTzVIymWTARb/ff62ttdWGUjz5NZXidcIzAUCODGkSorQgkDGYXujWwKVL8dnZWWupVPLA/oEjjcFxEam6BwYG7IjIA2WQR4jmKerbBAD0Q0UNDQ1cVwYlg8FAd27f7h8eHr6+Fo26EbGEdQNAy6pIJEKxjQ3X1NTUF0QlOFpaqMXhkJuQSCQolUwm3rx9O2axWD77fL5nOzs7TjSV6s1mam5u5hNCS0tLYiAQqEPqEYD2yd2X8nm6d/9+n9FonEZERnZk4VOwurpKqNcyzMter1eDd2E0zcGng4XLg8ZxWX6HOQL97ehI4byJAB4cHDRj8R60nY7lK/SX9+/eZXizn65c0cP2QS9+4zMPfQEV6VRO5VT+Z1GNjIz8J4DJycl/BK3+p3lGqpW1kPKfLit2HfSWMuGrwsPGD/DMSdBO6OsTg0QWTKhoNpvtx+hjcxrqOumDCZXD2Buam5s75ijIOANijEngKgMmOBMegR4YtBWgMy6X6y54axyj8CFse3X0OTB7Ozo6TCDAY47C5SyPMVEU8+FwWOYoq9UaABc9huM5ZVPOZIYfuru7ObIURuYDDPFlnrl2uz0IVrBiHk/k8/kLDFqrpCBzFMpxDXcbaOPJ95qDTCz48Z8cBWqJ424FxhFH4RLDh8MidnJD7LD5BfP6I/D7U7yTOYqlsbFRvoOy5fL09PT0I6vrnDZKImGzI45SGuVCjb6AJoSTUWE9gbKMoZ6fPR7PM5TE+TeRi/CpA/ARR1WP1Pz8fB8imcbXhrHqnMvliL9GACxzlM1m0wA8XF9f76j6cBabm5t/5ahvDz/O2nc5Cn4ZxedfOeoPAQYAGHQiSqfFl60AAAAASUVORK5CYII=") !important;
+    margin-right: 14px ! important;
 }
 
 .topics .replyCount:not(.nodark){
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAHCAYAAADam2dgAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoV2luZG93cykiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MzEzNjgwRkE1QzBDMTFFMkJBOTJBMDI5MDU2RDUxRDAiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MzEzNjgwRkI1QzBDMTFFMkJBOTJBMDI5MDU2RDUxRDAiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDozMTM2ODBGODVDMEMxMUUyQkE5MkEwMjkwNTZENTFEMCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDozMTM2ODBGOTVDMEMxMUUyQkE5MkEwMjkwNTZENTFEMCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PgsVMJsAAAB6SURBVHjaYnR3d2cAAicgzgVicyCWBOLnQHwSiCcD8T4WIJEPxP1AzMiAACCFAUDsD8SFTECiEU0BMgCJN4AUPWPADx6DFEUA8R0cCh4AcQxI0SUg1gRiPyA+AZU8BcShQKwBkmeBCv4B4iNA/ATqkRlA/AtmHECAAQDevhUaLdq0/AAAAABJRU5ErkJggg==) no-repeat scroll right 4px transparent !important;
 }
 
-/*Replace this section with the avatar size of your choosing*/
+.forumPost article .post_urlLinkOrImage img:not(.nodark){
+    background: none ! important;
+    border: none ! important;
+}
 
-/*Replace this section with what ever colored link colors and poll options you want*/
+.newsArticle_full .content_fh .body:not(.nodark){
+    border: none ! important;
+}
 
+.newsArticle_full .social_news:not(.nodark){
+    background: #121212 ! important;
+}
+
+.newsArticle_full .related_news .newsRelated:not(.nodark){
+    border: none ! important;
+}
+
+.newsArticle_full .forumPost article .content:not(.nodark){
+    padding-left: 50px ! important;
+}
+
+.dropdown.menu:not(.nodark),
+.dropdown.menu li:not(.nodark), 
+.dropdown.menu a:not(.nodark){
+    border: none ! important;
+}
+
+.Nav_Top .nav_identity .dropdown:not(.nodark){
+    padding: 0px 0 ! important;
+    width: 225px ! important;
+}
+
+.Nav_Top .nav_identity .container_connect .dropdown a:not(.nodark):before{
+    background: none ! important;
+    width: 0px ! important;
+}
+
+.Nav_Top .nav_identity .signedIn .dropdown a:not(.nodark){
+    text-transform: uppercase ! important;
+    font-size: 14px ! important;
+    letter-spacing: 2px ! important;
+}
+
+.Nav_Top .nav_identity .signedOut .dropdown a:not(.nodark){
+    text-transform: uppercase ! important;
+    font-size: 14px ! important;
+    letter-spacing: 2px ! important;
+}
+
+.Nav_Top .panel .hgroup:not(.nodark){
+    border-bottom: none ! important;
+}
+
+.forumPost .actions .container_form:not(.nodark){
+    margin-right: 10px ! important;
+}
+
+.container_myGames h2.sneakernetLabel:not(.nodark){
+    background: none ! important;
+}
+
+.container_dropdownTheme .container_select:not(.nodark){
+    border-top: none ! important;
+}
+
+.container_dropdownSneakernet .container_myGames:not(.nodark){
+    border-top: none ! important;
+}
+
+.AboutUs .page:not(.nodark){
+    background:  none ! important;
+}
+
+.Destiny .btn_preorder:not(.nodark){
+    background: #0a0a0a ! important;
+    border-left: 1px solid #0a0a0a ! important;
+}
+
+.footer_destiny .btn_destiny_discuss:not(.nodark){
+    background: url("http://www.bungie.net/img/theme/destiny/icons/icon_discuss_topics.png") no-repeat scroll 8px center #0a0a0a ! important;
+}
+
+.forumPost .btn_olderBlock:not(.nodark),
+.Groups .forumPost .btn_olderBlock:not(.nodark){ 
+    margin: 11px ! important;
+}
+
+.attention:not(.nodark),
+.error:not(.nodark){
+    border-spacing: 5px ! important;
+}
+
+.column.left.side:not(.nodark){
+    margin-top: 0px ! important;
+}
+
+.AboutUs .column.left.side:not(.nodark){
+    margin-top: 245px ! important;
+}
+
+.AboutUs.Games .column.left.side:not(.nodark){
+    margin-top: 440px ! important;
+}
+
+.Community .left.side:not(.nodark){
+    margin-top: 114px ! important;
+}
+
+.cloned .count:not(.nodark){
+    background: #0f0f0f ! important;
+    color: #D1D1D1 ! important;
+    border: none ! important;
+    box-shadow: none ! important;
+    font-size: 14px ! important;
+    height: 1px ! important;
+    line-height: 5px ! important;
+    padding: none ! important;
+}
+
+.cloned .count:not(.nodark):before,
+.cloned .count:not(.nodark):after{
+    background: none ! important;
+}
+
+.forumPost article .post_urlLinkOrImage .btn_hideImage:not(.nodark){
+    right: -15px ! important;
+}
+
+.container_callouts .btn_more:not(.nodark){
+    color: #D1D1D1 ! important;
+}
+
+.container_callouts.open:not(.nodark){
+    height: 300px ! important;
+}
+
+.nav_destiny li a:not(.nodark){
+    color: #D1D1D1 ! important;
+}
+
+.Destiny .innerNav a:not(.nodark){
+    color: #D1D1D1 ! important;
+}
+
+.Destiny .btn_preorder:not(.nodark){
+    color: #D1D1D1 ! important;
+}
+
+.footer_destiny a:not(.nodark){
+    background-color: #0a0a0a ! important;
+    width: 115px ! important;
 }
