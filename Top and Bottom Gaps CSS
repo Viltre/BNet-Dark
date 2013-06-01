@@ -1,0 +1,54 @@
+/*Normal spacing*/
+
+.container_out:not(.nodark){
+    border: none ! important;
+}
+
+.nav_tabs li.on a:not(.nodark){
+    background: #D1D1D1 ! important;
+    border-bottom: none ! important;
+    color: #000000 ! important;
+    line-height: 29px ! important;
+}
+
+.nav_tabs li a:not(.nodark){
+    background: none ! important;
+    border-bottom: none ! important;
+    color: #D1D1D1 ! important;
+    line-height: 29px ! important;
+}
+
+/*No spacing*/
+
+.header_body_page:not(.nodark){
+    height: 0px ! important;
+}
+
+.container_body > h1:not(.nodark),
+.footer:not(.nodark){
+    display: none !important;
+}
+
+.header_body_page h1 a:not(.nodark){
+    display: none ! important;
+}
+
+.header_body_page h1 a:not(.nodark):hover{
+    display: none ! important;
+}
+
+body.loaded footer:not(.nodark){
+    display: none ! important;
+}
+
+.container_out:not(.nodark){
+    border:  none ! important;
+}
+
+.nav_tabs li.on a:not(.nodark){
+    display: none ! important;
+}
+
+.nav_tabs li a:not(.nodark){
+    display: none ! important;
+}
