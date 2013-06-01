@@ -1,0 +1,243 @@
+/*Gradient Dark*/
+
+.container_body:not(.nodark){
+    background: #0c0c0c ! important;
+}
+
+.left:not(.nodark){
+    background: -moz-linear-gradient(left,  #2d2d2d 0%, #0c0c0c 49%) ! important;
+    background: -webkit-linear-gradient(left,  #2d2d2d 0%, #0c0c0c 49%) ! important;
+    background: linear-gradient(left,  #2d2d2d 0%, #0c0c0c 49%) ! important;
+}
+
+nav.left a:not(.nodark),
+.column.left a:not(.nodark){
+    background-image: none ! important;
+}
+
+nav .on:not(.nodark){
+    background: -moz-linear-gradient(left,  #626262 0%, #121212 49%) ! important;
+    background: -webkit-linear-gradient(left,  #626262 0%, #121212 49%) ! important;
+    background: linear-gradient(left,  #626262 0%, #121212 49%) ! important;
+}
+
+.AboutUs .nav_side li .on a:not(.nodark){
+    background: url("http://www.bungie.net/img/theme/bungienet/icons/icon_listLink_right_d4d4d4.png") no-repeat scroll left center transparent ! important;
+}
+
+.topics li:not(.nodark):hover{
+    box-shadow: none ! important;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.4) ! important;
+}
+
+.topics .cf.block.followedAuthor:not(.nodark){
+    box-shadow: none ! important;
+    background: -moz-linear-gradient(left,  #2d2d2d 0%, #121212 49%) ! important;
+    background: -webkit-linear-gradient(left,  #2d2d2d 0%, #121212 49%) ! important;
+    background: linear-gradient(left,  #2d2d2d 0%, #121212 49%) ! important;
+}
+
+.topics .cf.block.followedAuthor:not(.nodark):hover{
+    box-shadow: none ! important;
+    background: none repeat scroll 0 0 #2d2d2d ! important;
+}
+
+.container_sort .sort li.on a:not(.nodark){
+    background: #0a0a0a ! important;
+}
+
+.container_sort:not(.nodark){
+    background-color: #0f0f0f ! important;
+    box-shadow: none ! important;
+    border-color: #0a0a0a ! important;
+    border-width: 1px 0 1px 0 ! important;
+}
+
+.forumPost .header_post:not(.nodark){
+    border-left: none ! important;
+}
+
+.forumPost .header_post:not(.nodark){
+    background: -moz-linear-gradient(left,  #121212 19%, #2d2d2d 100%) !important;
+    background: -webkit-linear-gradient(left,  #121212 19%, #2d2d2d 100%) ! important;
+    background: linear-gradient(left,  #121212 19%, #2d2d2d 100%) ! important;
+}
+
+/*Gradient Light*/
+
+.container_body:not(.nodark){
+    background: #0c0c0c ! important;
+}
+
+.left:not(.nodark){
+    background: -moz-linear-gradient(left,  #2d2d2d 0%, #0c0c0c 49%) ! important;
+    background: -webkit-linear-gradient(left,  #2d2d2d 0%, #0c0c0c 49%) ! important;
+    background: linear-gradient(left,  #2d2d2d 0%, #0c0c0c 49%) ! important;
+}
+
+nav.left a:not(.nodark),
+.column.left a:not(.nodark){
+    background-image: none ! important;
+}
+
+nav .on:not(.nodark){
+    background: -moz-linear-gradient(left,  #626262 0%, #121212 49%) ! important;
+    background: -webkit-linear-gradient(left,  #626262 0%, #121212 49%) ! important;
+    background: linear-gradient(left,  #626262 0%, #121212 49%) ! important;
+}
+
+.AboutUs .nav_side li .on a:not(.nodark){
+    background: url("http://www.bungie.net/img/theme/bungienet/icons/icon_listLink_right_d4d4d4.png") no-repeat scroll left center transparent ! important;
+}
+
+.topics li:not(.nodark):hover{
+    box-shadow: none ! important;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.4) ! important;
+}
+
+.topics .cf.block.followedAuthor:not(.nodark){
+    box-shadow: none ! important;
+    background: -moz-linear-gradient(left,  #2d2d2d 0%, #121212 49%) ! important;
+    background: -webkit-linear-gradient(left,  #2d2d2d 0%, #121212 49%) ! important;
+    background: linear-gradient(left,  #2d2d2d 0%, #121212 49%) ! important;
+}
+
+.topics .cf.block.followedAuthor:not(.nodark):hover{
+    box-shadow: none ! important;
+    background: none repeat scroll 0 0 #2d2d2d ! important;
+}
+
+.container_sort .sort li.on a:not(.nodark){
+    background: #2d2d2d ! important;
+}
+
+.container_sort:not(.nodark){
+    background-color: #1f1f1f ! important;
+    box-shadow: none ! important;
+    border-color: #2d2d2d ! important;
+    border-width: 1px 0 1px 0 ! important;
+}
+
+.forumPost .header_post:not(.nodark){
+    border-left: none ! important;
+}
+
+.forumPost .header_post:not(.nodark){
+    background: -moz-linear-gradient(left,  #121212 19%, #2d2d2d 100%) !important;
+    background: -webkit-linear-gradient(left,  #121212 19%, #2d2d2d 100%) ! important;
+    background: linear-gradient(left,  #121212 19%, #2d2d2d 100%) ! important;
+}
+
+/*Bar Dark*/
+
+.container_body:not(.nodark){
+    background: #0c0c0c ! important;
+}
+
+.left:not(.nodark){
+    background: #0c0c0c ! important;
+}
+
+nav.left a:not(.nodark),
+.column.left a:not(.nodark){
+    background-image: none ! important;
+}
+
+nav .on:not(.nodark){
+    background: url("http://i.imgur.com/lwTbp8m.png") repeat-y scroll transparent ! important;
+}
+
+.AboutUs .nav_side li .on a:not(.nodark){
+    background: url("http://www.bungie.net/img/theme/bungienet/icons/icon_listLink_right_d4d4d4.png") no-repeat scroll left center transparent ! important;
+}
+
+.topics li:not(.nodark):hover{
+    box-shadow: none ! important;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.4) ! important;
+}
+
+.topics .cf.block.followedAuthor:not(.nodark){
+    box-shadow: none ! important;
+    background: url("http://i.imgur.com/lwTbp8m.png") repeat-y scroll transparent ! important;
+}
+
+.topics .cf.block.followedAuthor:not(.nodark):hover{
+    box-shadow: none ! important;
+    background: url("http://i.imgur.com/lwTbp8m.png") repeat-y scroll rgba(0, 0, 0, 0.4) ! important;
+}
+
+.container_sort .sort li.on a:not(.nodark){
+    background: #0a0a0a ! important;
+}
+
+.container_sort:not(.nodark){
+    background-color: #0f0f0f ! important;
+    border-bottom: 1px solid #0a0a0a ! important;
+    border-top: 3px solid #7D7D7D ! important;
+    box-shadow: none ! important;
+}
+
+.forumPost .header_post:not(.nodark){
+    border-left: none ! important;
+}
+
+.forumPost .header_post:not(.nodark){
+    background: #121212 ! important;
+}
+
+/*Bar Light*/
+
+.container_body:not(.nodark){
+    background: #0c0c0c ! important;
+}
+
+.left:not(.nodark){
+    background: #0c0c0c ! important;
+}
+
+nav.left a:not(.nodark),
+.column.left a:not(.nodark){
+    background-image: none ! important;
+}
+
+nav .on:not(.nodark){
+    background: url("http://i.imgur.com/lwTbp8m.png") repeat-y scroll transparent ! important;
+}
+
+.AboutUs .nav_side li .on a:not(.nodark){
+    background: url("http://www.bungie.net/img/theme/bungienet/icons/icon_listLink_right_d4d4d4.png") no-repeat scroll left center transparent ! important;
+}
+
+.topics li:not(.nodark):hover{
+    box-shadow: none ! important;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.4) ! important;
+}
+
+.topics .cf.block.followedAuthor:not(.nodark){
+    box-shadow: none ! important;
+    background: url("http://i.imgur.com/lwTbp8m.png") repeat-y scroll transparent ! important;
+}
+
+.topics .cf.block.followedAuthor:not(.nodark):hover{
+    box-shadow: none ! important;
+    background: url("http://i.imgur.com/lwTbp8m.png") repeat-y scroll rgba(0, 0, 0, 0.4) ! important;
+}
+
+.container_sort .sort li.on a:not(.nodark){
+    background: #2d2d2d ! important;
+}
+
+.container_sort:not(.nodark){
+    background-color: #1f1f1f ! important;
+    border-bottom: 1px solid #2d2d2d ! important;
+    border-top: 3px solid #7D7D7D ! important;
+    box-shadow: none ! important;
+}
+
+.forumPost .header_post:not(.nodark){
+    border-left: none ! important;
+}
+
+.forumPost .header_post:not(.nodark){
+    background: #121212 ! important;
+}
