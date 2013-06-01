@@ -1,0 +1,25 @@
+/*Old font*/
+
+.forumPost article .post_body:not(.nodark),
+.forumPost article .post_urlLinkOrImage:not(.nodark){
+    font-size: 13px ! important;
+    font-family: 'OpenSansRegular',Arial,sans-serif ! important;
+}
+
+.forumPost article h1 a:not(.nodark){
+    font-family: 'OpenSansSemiBold',Arial,sans-serif ! important;
+    font-size: 14px ! important;
+}
+
+.topics .title:not(.nodark){
+    font-family: 'OpenSansSemiBold',Arial,sans-serif ! important;
+    font-size: 15px ! important;
+}
+
+.forumPost article strong:not(.nodark){
+    font-family: 'OpenSansSemiBold',Arial,sans-serif ! important;
+}
+
+/*New Font*/
+
+/*no changes needed*/
