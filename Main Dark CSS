@@ -1,3 +1,4 @@
+
 @-moz-document domain("bungie.net"){
 body:not(.nodark),
 .body:not(.nodark),
@@ -32,11 +33,6 @@ body:not(.nodark),
     border: none !important;
 }
 
-.header_page.cf:not(.nodark),
-.container_body.cf:not(.nodark):nth-child(9){
-    margin-top: 50px !important;
-}
-
 .post_title:not(.nodark),
 .editedTime:not(.nodark){
     color: #888888 !important;
@@ -53,11 +49,6 @@ article.cf > .content > a:not(.nodark){
 
 .tags > span:not(.nodark){
     color: #444444 !important;
-}
-
-.pager_prevnext.block:not(.nodark){
-    border-color: #1f1f1f !important;
-    border-width: 2px 0 0 0 !important;
 }
 
 .extraInfo time:not(.nodark),
@@ -92,17 +83,6 @@ article.cf > .content > a:not(.nodark){
     background: url("http://i.imgur.com/b9pz4.png") no-repeat scroll right 0px  !important;
 }
 
-.dualColList.cf li.cf:not(.nodark){
-    border-bottom: 1px solid #2d2d2d !important;
-    padding-bottom: 5px !important;
-}
-
-#groupFollowers li.cf:not(.nodark){
-    border-bottom: 1px solid #2d2d2d !important;
-    margin: 0 !important;
-    padding: 10px 0 !important;
-}
-
 h2:not(.nodark),
 .content_text h4:not(.nodark){
     color: #888888 !important;
@@ -118,13 +98,6 @@ h2:not(.nodark),
     margin-top: 0 !important;
 }
 
-.feed.myRecentTopics li.cf:not(.nodark),
-.feed.myRecentLikesShares li.cf:not(.nodark){
-    min-height: 55px !important;
-    border-top: 1px solid #1f1f1f !important;
-    margin-top: 0px !important;
-}
-
 .feed.myRecentTopics .content.cf:not(.nodark),
 .feed.myRecentLikesShares .content.cf:not(.nodark){
     margin: 11px 0 0 60px !important;
@@ -133,7 +106,7 @@ h2:not(.nodark),
 
 .feed.myRecentTopics h1.title:not(.nodark),
 .feed.myRecentLikesShares h1.title:not(.nodark){
-    width: 420px !important;
+    width: 400px !important;
 }
 
 .btn_viewMore.btn_blue:not(.nodark){
@@ -203,10 +176,6 @@ a.btn_unpinAnnouncement:not(.nodark){
 .cf.container_BannedUsersList.container_section:not(.nodark),
 .container_form li:not(.nodark){
     background-color: #121212 !important;
-}
- 
-#BannedUsersList:not(.nodark){
-    height: 35px !important;
 }
  
 .panel_0.middlePanel:not(.nodark):hover,
@@ -312,31 +281,8 @@ a.btn_unpinAnnouncement:not(.nodark){
     color: #626262 !important;
 }
  
-.container_search .topic:not(.nodark){
-    border-color: #2d2d2d !important;
-    margin: 0 !important;
-}
- 
-.container_search article:not(.nodark){
-    background: #1f1f1f !important;
-}
- 
 .container_search article time:not(.nodark){
     text-shadow: none !important;
-}
- 
-.container_search .container_topics:not(.nodark){
-    border-color: #2d2d2d !important;
-}
- 
-.container_search .container_groups li:not(.nodark){
-    border-bottom: 1px solid #2d2d2d !important;
-    padding-bottom: 15px !important;
-}
- 
-.container_search .container_users li:not(.nodark){
-    border-bottom: 1px solid #2d2d2d !important;
-    padding-bottom: 15px !important;
 }
 
 .topics .extraInfo:not(.nodark),
@@ -374,10 +320,6 @@ a.btn_unpinAnnouncement:not(.nodark){
 .container_news:not(.nodark){
     background: #121212 ! important;
     min-height: 600px ! important;
-}
-
-.newsArticle:not(.nodark){
-    border-bottom: none ! important;
 }
 
 .newsArticle .title a:not(.nodark){
@@ -534,11 +476,6 @@ a.btn_unpinAnnouncement:not(.nodark){
     color: #D1D1D1 ! important;
 }
 
-#AccountSettings .open .btn_save:not(.nodark):after{
-    background: none repeat scroll 0 0 #121212 ! important;
-    color: #D1D1D1 ! important;
-}
-
 #home .container_details .notice.banNotice:not(.nodark){
     color: #BB2222 ! important;
     text-shadow: 0 2px 2px #000000 ! important;
@@ -571,13 +508,6 @@ a.btn_unpinAnnouncement:not(.nodark){
 
 .dualColList .content > .title span:not(.nodark){
     color: #D1D1D1 ! important;
-}
-
-.btn_gray:not(.nodark),
-.btn_blue[rel="disabled"]:not(.nodark){
-    background: #1f1f1f ! important;
-    border: 1px solid #1f1f1f ! important;
-    box-shadow: 0 2px 5px -1px rgba(0, 0, 0, 0.4), 0 0 1px 1px rgba(201, 201, 201, 0.6) inset ! important;
 }
 
 .newsArticle_full .header_article:not(.nodark){
@@ -670,6 +600,14 @@ a.link_gray:not(.nodark):hover{
 .forumPost article .avatar:not(.nodark):before{
     border: none ! important;
     box-shadow: none ! important;
+}
+
+.forumPost .header_post .avatar:not(.nodark){
+    border: none ! important;
+}
+
+.dualColList .avatar:not(.nodark){
+    margin-bottom: 5px ! important;
 }
 
 .forumPost .btn_permalink:not(.nodark){
@@ -768,6 +706,10 @@ a.link_gray:not(.nodark):hover{
     margin: 11px ! important;
 }
 
+.post.subtopic:not(.nodark){
+    height: 75px ! important;
+}
+
 .attention:not(.nodark),
 .error:not(.nodark){
     border-spacing: 5px ! important;
@@ -789,6 +731,10 @@ a.link_gray:not(.nodark):hover{
     margin-top: 114px ! important;
 }
 
+.AboutUs.Foundation .column.left.side:not(.nodark){
+    margin-top: 463px ! important;
+}
+
 .cloned .count:not(.nodark){
     background: #0f0f0f ! important;
     color: #D1D1D1 ! important;
@@ -806,7 +752,7 @@ a.link_gray:not(.nodark):hover{
 }
 
 .forumPost article .post_urlLinkOrImage .btn_hideImage:not(.nodark){
-    right: -15px ! important;
+    right: -20px ! important;
 }
 
 .container_callouts .btn_more:not(.nodark){
@@ -833,3 +779,440 @@ a.link_gray:not(.nodark):hover{
     background-color: #0a0a0a ! important;
     width: 115px ! important;
 }
+
+.container_create .container:not(.nodark){
+    padding-top: 10px ! important;
+    width: 750px ! important;
+}
+
+.container_select label:not(.nodark){
+    color: #D1D1D1 ! important;
+}
+
+.topics li:not(.nodark){
+    margin: 0px ! important;
+}
+
+.container_myGames .profile_stats p:not(.nodark),
+.container_myGames .profile_stats a:not(.nodark){
+    font-size: 14px ! important;
+}
+
+.newsArticle_full #container_all:not(.nodark){
+    margin-top: 15px ! important;
+}
+
+.newsArticle_full .header_article:not(.nodark){
+    top: -15px ! important;
+}
+
+.Nav_Top .communities .section h5:not(.nodark){
+    color: #777777 ! important;
+}
+
+.Blog.Article:not(.nodark){
+    background-attachment: fixed ! important;
+}
+
+.column.left.side:not(.nodark){
+    padding-left: 2px ! important;
+}
+
+.column.main:not(.nodark){
+    margin-left: 0px ! important;
+}
+
+.container_callouts .news .content:not(.nodark),
+.container_callouts .news .content p a:not(.nodark),
+.container_callouts .media .content:not(.nodark),
+.container_callouts .media .content p a:not(.nodark){
+    color: #FFFFFF ! important;
+}
+
+.container_select:not(.nodark){
+    color: #D1D1D1 ! important;
+}
+
+.alert .content p:not(.nodark){
+    color: #D1D1D1 ! important;
+}
+
+.alert .content:not(.nodark){
+    background-color: #0a0a0a ! important;
+    color: #D1D1D1 ! important;
+}
+
+.alert .header:not(.nodark){
+    background-color: #0a0a0a ! important;
+}
+
+#signInAlert .innerContent:not(.nodark){
+    background-color: #0a0a0a ! important;
+}
+
+#alert.warning .innerContent:not(.nodark){
+    background-color: #0a0a0a ! important;
+}
+
+#alert.warning .url:not(.nodark){
+    background-color: #0a0a0a ! important;
+}
+
+.alert .forumPost article .content:not(.nodark){
+    background: #121212 ! important;
+}
+
+#signInAlert #container_signIn:not(.nodark){
+    background: #121212 ! important;
+}
+
+.extraInfo_user .user_wrap:not(.nodark){
+    background-image: url("http://i.imgur.com/eWqcN0j.png") ! important;
+}
+
+.extraInfo_user .about:not(.nodark){
+    color: #D1D1D1 ! important;
+    font-family: 'OpenSansRegular',Arial,sans-serif ! important;
+}
+
+.header_page .user_tenure:not(.nodark){
+    background-image: url("http://i.imgur.com/nb4sp7r.png") ! important;
+}
+
+.Nav_Top .nav_logo .submenu:not(.nodark){
+    box-shadow: 0 4px 8px -2px rgba(0, 0, 0, 0.4) ! important;
+}
+
+.dualColList .empty:not(.nodark){
+    color: #B8B8B8 ! important;
+}
+
+.newsArticle_full .header_article .text:not(.nodark){
+    color: #D1D1D1 ! important;
+}
+
+.forumPost blockquote:not(.nodark){
+    border-width: 1px 1px 1px 3px ! important;
+}
+
+.forumPost .spoiler:not(.nodark){
+    border-left: 3px solid ! important;
+}
+
+.MyCommunity .header_page:not(.nodark),
+.Edit .header_page:not(.nodark){
+    box-shadow: 100px 100px 100px 100px rgba(0, 0, 0, 0.4) inset ! important;
+}
+
+.categoryList li a:not(.nodark){
+    color: #D1D1D1 ! important;
+}
+
+.categoryList li h5:not(.nodark){
+    color: #D1D1D1 ! important;
+}
+
+.categoryList:not(.nodark){
+    background: url("http://halo.bungie.net/images/dark/upper_neb.png") no-repeat scroll top right, url("http://halo.bungie.net/images/dark/lower_neb.png") no-repeat scroll bottom center, url("http://halo.bungie.net/images/dark/ohmygodiseestars.gif") repeat scroll center ! important;
+}
+
+li .actions a:not(.nodark):hover{
+    color: #D1D1D1 ! important;
+}
+
+.groupAnnouncements .btn_unpinAnnouncement:not(.nodark):hover{
+    color: #FF0000 ! important;
+}
+
+.forumPost .postSortMode ul:not(.nodark){
+    border: none ! important;
+}
+
+.groups_search_section:not(.nodark),
+.activity_search_section:not(.nodark),
+.news_search_section:not(.nodark),
+.topics_search_section:not(.nodark){
+    color: #B2B2B2 ! important;
+}
+
+.container_body .errorSection p:not(.nodark),
+.Blog .container_body .errorSection p:not(.nodark){
+    color: #B2B2B2 ! important;
+}
+
+.container_myAliases li:not(.nodark){
+    color: #B2B2B2 ! important;
+}
+
+.container_details:not(.nodark),
+.container_details h2:not(.nodark){
+    color: #B2B2B2 ! important;
+}
+
+.feed .title:not(.nodark){
+    color: #D1D1D1 ! important;
+}
+
+.forumPost .thread_info:not(.nodark){
+    color: #D1D1D1 ! important;
+}
+
+.spotlight_news li:not(.nodark):first-child .content {
+    background: #1f1f1f ! important;
+}
+
+.forumPost .postSortMode > span:not(.nodark){
+    line-height: 12px !important;
+}
+
+.forumPost .btn_olderBlock:not(.nodark),
+.Groups .forumPost .btn_olderBlock:not(.nodark),
+.Groups .column.main .btn_olderBlock:not(.nodark){
+    line-height: 5px ! important;
+}
+
+/*all the options sections go between here expext the social media section*/
+
+.Nav_Top .nav_logo .submenu li:not(.nodark){
+    background: none ! important;
+}
+
+.Nav_Top .nav_logo .submenu li a:not(.nodark){
+    background: none ! important;
+    color: #D9D9D9 ! important;
+    text-shadow: 1px 1px 1px 1px #000000 ! important;
+}
+
+.Nav_Top .has_subMenu.opened .submenu a:not(.nodark):hover{
+    background: none ! important;
+    color: #ffffff ! important;
+    text-shadow: 1px 1px 1px 1px #000000 ! important;
+}
+
+#News_SubMenu li .body:not(.nodark){
+    background: none ! important;
+}
+
+.Nav_Top .nav_logo .groups .submenu .container_textbox:not(.nodark){
+    background: #121212 ! important;
+}
+
+.Nav_Top .nav_identity .dropdown a:not(.nodark){
+    line-height: 3px ! important;
+}
+
+.Nav_Top .nav_identity .container_connect .dropdown a:not(.nodark):before{
+    height: 3px ! important;
+}
+
+.forumPost .header_post .avatar:not(.nodark){
+    width: 55px ! important;
+}
+
+.forumPost article .post_urlLinkOrImage.image.gated:not(.nodark){
+    width: 240px ! important;
+}
+
+.forumPost article .post_urlLinkOrImage.video.gated:not(.nodark){
+    width: 240px ! important;
+}
+
+.Sub_Nav:not(.nodark){
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.8) ! important;
+}
+
+.nav_sub .btn_preorder:not(.nodark){
+    background: rgba(0, 0, 0, 0.7) ! important;
+    color: #D1D1D1 ! important;
+}
+
+.nav_sub .btn_preorder:not(.nodark):hover{
+    color: #ffffff ! important;
+}
+
+.Nav_Top .panel .hgroup:not(.nodark):after{
+    top: -8px ! important;
+}
+
+#roster_list .section ul li:not(.nodark),
+#followed_list .section ul li:not(.nodark){
+    border-bottom: none ! important;
+    border-top: 1px solid #2D2D2D ! important;
+}
+
+#roster_list .actions a:not(.nodark):hover,
+#followed_list .actions a:not(.nodark):hover{
+    color: #ffffff ! important;
+}
+
+.AboutUs .Sub_Nav:not(.nodark),
+.Index .Sub_Nav:not(.nodark){
+    top: 61px ! important;
+}
+
+.nav_logo:not(.nodark):before{
+    border-right: none ! important;
+}
+
+.nav_top .dropTrigger:not(.nodark){
+    border-left: none ! important;
+}
+
+#roster_list .section ul li:not(.nodark),
+#followed_list .section ul li:not(.nodark){
+    box-shadow: none ! important;
+}
+
+#roster_list .actions a:not(.nodark):before,
+#followed_list .actions a:not(.nodark):before{
+    border-left: 1px solid #444444 ! important;
+}
+
+.Nav_Top .communities .section h5:not(.nodark){
+    border-bottom: none ! important;
+}
+
+#roster_list .sort li:not(.nodark),
+#followed_list .sort li:not(.nodark){
+    border-left: none ! important;
+}
+
+#followed_list .section .links h1 a:not(.nodark){
+    font-family: 'OpenSansSemiBold',Arial,sans-serif ! important;
+}
+
+.Nav_Top article p:not(.nodark),
+.Nav_Top #mail_conversation article p:not(.nodark),
+.pinned article p:not(.nodark){
+    color: #666666 ! important;
+}
+
+.Nav_Top article h1:not(.nodark),
+.pinned article h1:not(.nodark){
+    color: #666666 ! important;
+    font-size: 13px ! important;
+}
+
+#mail_conversation article p:not(.nodark){
+    color: #666666 ! important;
+}
+
+.Nav_Top #mail_conversation article .avatar.only:not(.nodark){
+    height: 40px ! important;
+    margin-left: 5px ! important;
+    margin-top: 5px ! important;
+    width: 40px ! important;
+}
+
+#mail_conversation .me time:not(.nodark),
+.pinned .me time:not(.nodark){
+    float: left ! important;
+    padding-left: 43px ! important;
+}
+
+#mail_conversation article time:not(.nodark){
+    float: left ! important;
+    padding-left: 0px ! important;
+}
+
+.Nav_Top .me .con_list p:not(.nodark){
+    font-style: normal ! important;
+}
+
+.Nav_Top article p:not(.nodark),
+.pinned article p:not(.nodark){
+    max-width: 360px ! important;
+}
+
+#mail_conversation .me .content p:not(.nodark),
+.pinned .me .content p:not(.nodark){
+    text-align: left ! important;
+    left: 43px ! important;
+}
+
+#mail_conversation .me .container_avatar:not(.nodark),
+.pinned .me .container_avatar:not(.nodark){
+    left: 0 ! important;
+    right: auto ! important;
+}
+
+#roster_list .section article span:not(.nodark){
+    color: #666666 ! important;
+}
+
+.forumPost .groupHeader .tags:not(.nodark){
+    margin-left: 0px ! important;
+}
+
+.Nav_Top .hgroup .btn_settings:not(.nodark):before{
+    border-left: none ! important;
+    opacity: 0.7 ! important;
+}
+
+#mail_conversations .btn_gotoCreate:not(.nodark){
+    background-image: url("http://i.imgur.com/Z3UkUQz.png") ! important;
+}
+
+#recipients p:not(.nodark){
+    background: none ! important;
+}
+
+#recipients .btn_delete:not(.nodark){
+    background: none ! important;
+}
+
+#recipients ul li:last-child:nth-child(-n+7):not(.nodark):after{
+    background: url("http://i.imgur.com/sGmQFx2.png") ! important;
+    opacity: 0.7 ! important;
+}
+
+#recipients .suggest li:not(.nodark){
+    border-bottom: 1px solid #2B2B2B ! important;
+    box-shadow: none ! important;
+}
+
+.nav_identity.opened img:not(.nodark){
+    background-color: transparent ! important;
+}
+
+.Nav_Top #mail_conversation .tooltip:not(.nodark){
+    background: none transparent ! important;
+    color: #ffffff ! important;
+}
+
+#AccountSettings .SelectLanguage:not(.nodark){
+    border-top: 1px solid #666666 ! important;
+}
+
+#AccountSettings .SelectLanguage select:not(.nodark){
+    background-color: #0a0a0a ! important;
+    border: 1px solid #666666 ! important;
+    color: #666666 ! important;
+}
+#AccountSettings .SelectLanguage select:not(.nodark),
+#AccountSettings .SelectLanguage.container_select option:not(.nodark){
+    font-size: 14px ! important;
+}
+
+footer .SelectLanguage .menu_selectLanguage li a:not(.nodark){
+    background: #0a0a0a ! important;
+}
+
+footer .SelectLanguage .menu_selectLanguage li:not(.nodark){
+    padding: 0 ! important;
+}
+
+.Nav_Top .hgroup .sort .on a:not(.nodark){
+    color: #ffffff ! important;
+}
+
+.rotator_fade .backgrounds .on .frontpagebackgroundpanel:not(.nodark){
+    top: 60px ! important;
+}
+
+.container_callouts .news .content p a:not(.nodark),
+.container_callouts .media .content p a:not(.nodark){
+    width: 350px ! important;
+}
+
+/*Social media section goes here*/
