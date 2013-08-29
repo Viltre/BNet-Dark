@@ -16,9 +16,9 @@ nav.left a:not(.nodark),
 }
 
 nav .on:not(.nodark){
-    background: -moz-linear-gradient(left,  #626262 0%, #121212 49%) ! important;
-    background: -webkit-linear-gradient(left,  #626262 0%, #121212 49%) ! important;
-    background: linear-gradient(left,  #626262 0%, #121212 49%) ! important;
+    background: -moz-linear-gradient(left,  #626262 0%, #0c0c0c 49%) ! important;
+    background: -webkit-linear-gradient(left,  #626262 0%, #0c0c0c 49%) ! important;
+    background: linear-gradient(left,  #626262 0%, #0c0c0c 49%) ! important;
 }
 
 .AboutUs .nav_side li .on a:not(.nodark){
@@ -81,9 +81,9 @@ nav.left a:not(.nodark),
 }
 
 nav .on:not(.nodark){
-    background: -moz-linear-gradient(left,  #626262 0%, #121212 49%) ! important;
-    background: -webkit-linear-gradient(left,  #626262 0%, #121212 49%) ! important;
-    background: linear-gradient(left,  #626262 0%, #121212 49%) ! important;
+    background: -moz-linear-gradient(left,  #626262 0%, #0c0c0c 49%) ! important;
+    background: -webkit-linear-gradient(left,  #626262 0%, #0c0c0c 49%) ! important;
+    background: linear-gradient(left,  #626262 0%, #0c0c0c 49%) ! important;
 }
 
 .AboutUs .nav_side li .on a:not(.nodark){
