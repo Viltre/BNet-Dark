@@ -1,0 +1,144 @@
+/*none*/
+
+@-moz-document
+domain("bungie.net"){
+
+.forumPost .post:not(.nodark){
+    padding: 10px 0 0 35px ! important;
+}
+
+.addthis_button img:not(.nodark){
+    display: none ! important;
+}
+
+.container_sort .share:not(.nodark){
+    display: none ! important;
+}
+
+.forumPost .social_share:not(.nodark){
+    display: none ! important;
+}
+
+.container_sort .sort:not(.nodark){
+    padding-right: 97px ! important;
+}
+
+.newsArticle_full .social_share:not(.nodark){
+    display: none ! important;
+}
+
+.footer_destiny iframe:not(.nodark){
+    display: none ! important;
+}
+
+.twitter-share-button:not(.nodark){
+    display: none ! important;
+}
+
+}
+
+/*Text version*/
+
+@-moz-document
+domain("facebook.com"){
+
+body:not(.nodark){
+    margin: 0px ! important;
+}
+
+.pluginButton:not(.nodark){
+    background: none ! important;
+    border: none ! important;
+    color: #666666 ! important;
+}
+
+.pluginCountButton:not(.nodark){
+    background: none ! important;
+    border: none ! important;
+    color: #666666 ! important;
+}
+
+.pluginCountButtonNub s:not(.nodark),
+.pluginCountButtonNub i:not(.nodark){
+    display: none ! important;
+}
+
+}
+
+@-moz-document
+domain("twitter.com"){
+
+html:not(.nodark){
+    font-family: 'lucida grande',tahoma,verdana,arial,sans-serif ! important;
+    font-size: 11px ! important;
+}
+
+.btn:not(.nodark){
+    background: none ! important;
+    border: none ! important;
+    color: #666666 ! important;
+    text-shadow: none ! important;
+    font-weight: normal ! important;
+}
+
+.count-o:not(.nodark){
+    background: none ! important;
+    border: none ! important;
+}
+
+#count:not(.nodark){
+    color: #666666 ! important;
+}
+
+.count-o i:not(.nodark),
+.count-o u:not(.nodark){
+    display: none ! important;
+}
+
+}
+
+@-moz-document
+domain("bungie.net"){
+
+.container_sort .sort:not(.nodark){
+    padding-right: 77px ! important;
+}
+
+.forumPost .post:not(.nodark){
+    padding: 10px 0 0 35px ! important;
+}
+
+.forumPost .social_share:not(.nodark){
+    padding-right: 20px ! important;
+    padding-top: 0 ! important;
+    text-align: right ! important;
+}
+
+.newsArticle_full .social_share:not(.nodark){
+    margin-bottom: 10px ! important;
+    margin-left: 50px ! important;
+}
+
+.addthis_button img:not(.nodark){
+    display: none ! important;
+}
+
+.addthis_button:not(.nodark):hover img{
+    display: inline ! important;
+    max-width: 0px ! important;
+    opacity: 0 ! important;
+}
+
+.addthis_button:not(.nodark):after{
+    color: #666666 ! important;
+    content: "Share" ! important;
+    font-size: 11px ! important;
+    line-height: 20px ! important;
+    float: right ! important;
+}
+
+.forumPost .social_share a.addthis_button:not(.nodark){
+    vertical-align: 0 ! important;
+}
+
+}
