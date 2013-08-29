@@ -1,5 +1,9 @@
 /*Normal spacing*/
 
+.header_body_page h1 a:not(.nodark){
+    display: none ! important;
+}
+
 .container_out:not(.nodark){
     border: none ! important;
 }
@@ -18,13 +22,16 @@
     line-height: 29px ! important;
 }
 
-/*No spacing*/
-
-.header_body_page:not(.nodark){
-    height: 0px ! important;
+.nav_destiny ul:not(.nodark){
+    background: rgba(0, 0, 0, 0.7) ! important;
 }
 
-.container_body > h1:not(.nodark),
+.nav_destiny li.on:not(.nodark){
+    background: url("http://www.bungie.net/img/theme/destiny/icons/icon_nav_destiny_on.png") no-repeat scroll center bottom rgba(50, 50, 50, 0.5) ! important;
+}
+
+/*No spacing*/
+
 .footer:not(.nodark){
     display: none !important;
 }
@@ -51,4 +58,12 @@ body.loaded footer:not(.nodark){
 
 .nav_tabs li a:not(.nodark){
     display: none ! important;
+}
+
+.nav_destiny ul:not(.nodark){
+    background: rgba(0, 0, 0, 0.7) ! important;
+}
+
+.nav_destiny li.on:not(.nodark){
+    background: url("http://www.bungie.net/img/theme/destiny/icons/icon_nav_destiny_on.png") no-repeat scroll center bottom rgba(50, 50, 50, 0.5) ! important;
 }
