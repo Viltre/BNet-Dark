@@ -20,6 +20,12 @@
     font-family: 'OpenSansSemiBold',Arial,sans-serif ! important;
 }
 
+.Nav_Top article h1 a:not(.nodark),
+.pinned article h1 a:not(.nodark){
+    font-family: 'OpenSansSemibold',arial,sans-serif ! important;
+    font-size: 13px ! important;
+}
+
 /*New Font*/
 
 /*no changes needed*/
