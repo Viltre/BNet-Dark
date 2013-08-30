@@ -22,6 +22,10 @@ a:not(.nodark):hover{
     color: #0096DB ! important;
 }
 
+.topics .title:not(.nodark){
+    color: #888888 ! important;
+}
+
 .header_body_page h1 a:not(.nodark){
     color: #D1D1D1 ! important;
 }
@@ -101,12 +105,16 @@ a:not(.nodark):hover{
     color: #D1D1D1 ! important;
 }
 
+.groupAnnouncements li .title:not(.nodark):hover{
+    color: #ffffff ! important;
+}
+
 .dualColList .content > a:not(.nodark){
     color: #D1D1D1 ! important;
 }
 
 .dualColList .content > .title span:not(.nodark){
-    color: #7D7D7D ! important;
+    color: #D1D1D1 ! important;
 }
 
 .topics .extraInfo:not(.nodark),
@@ -284,11 +292,11 @@ a:not(.nodark):hover{
 }
 
 .PathView .btn_toEntireTopic:not(.nodark){
-    background: #121212 ! important;
+    background: #0a0a0a ! important;
 }
 
 .PathView .btn_toParentPost:not(.nodark){
-    background: #121212 ! important;
+    background: #0a0a0a ! important;
 }
 
 .pager_prevnext span:not(.nodark){
@@ -297,4 +305,9 @@ a:not(.nodark):hover{
 
 .forumPost article time:not(.nodark){
     color: #BBBBBB ! important;
+}
+
+.topics .extraInfo:not(.nodark):hover,
+.topics .extraInfo a:not(.nodark):hover{
+    color: #D1D1D1 ! important;
 }
