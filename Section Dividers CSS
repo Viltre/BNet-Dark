@@ -1,0 +1,236 @@
+/*Light*/
+
+.topics li:not(.nodark){
+    border-top: 1px inset rgba(102,102,102,0.5) ! important;
+}
+
+.forumPost .post:not(.nodark){
+    border-top: 1px solid #2a2a2a ! important;
+}
+
+.pager_prevnext.block:not(.nodark){
+    border-color: #2a2a2a ! important;
+}
+
+.pager_prevnext:not(.nodark){
+    border-top: 1px solid #2a2a2a ! important;
+    border-bottom: 1px solid #2a2a2a ! important;
+    box-shadow: none ! important;
+}
+
+#post > .post:not(.nodark){
+    box-shadow: none ! important;
+}
+
+.container_groupAnnouncements li:not(.nodark),
+.container_groupActivities li:not(.nodark){
+    border-top: 1px solid #2a2a2a ! important;
+    padding: 10px 0 0 0 ! important;
+}
+
+.feed.myRecentTopics li.cf:not(.nodark),
+.feed.myRecentLikesShares li.cf:not(.nodark){
+    min-height: 55px !important;
+    border-top: 1px solid #2a2a2a !important;
+    margin-top: 0px !important;
+}
+
+.container_search .topic:not(.nodark){
+    border-color: rgba(102,102,102,0.5) ! important;
+    margin: 0 ! important;
+}
+
+.container_search .container_topics:not(.nodark){
+    border-color: #2a2a2a !important;
+}
+ 
+.container_search .container_groups li:not(.nodark){
+    border-bottom: 1px solid #2a2a2a !important;
+    padding-bottom: 15px !important;
+}
+ 
+.container_search .container_users li:not(.nodark){
+    border-bottom: 1px solid #2a2a2a !important;
+    padding-bottom: 15px !important;
+}
+
+.dualColList.cf li.cf:not(.nodark){
+    border-bottom: 1px solid #2a2a2a !important;
+    padding-bottom: 5px !important;
+}
+
+#groupFollowers li.cf:not(.nodark){
+    border-bottom: 1px solid #2a2a2a !important;
+    margin: 0 !important;
+    padding: 10px 0 !important;
+}
+
+.newsArticle:not(.nodark){
+    border-bottom: 1px solid #2a2a2a ! important;
+}
+
+.groups_search_section li:not(.nodark),
+.news_search_section li:not(.nodark){
+    border-bottom: 1px solid #2a2a2a !important;
+    border-top: 1px solid #2a2a2a !important;
+    padding-bottom: 15px !important;
+    padding-top: 15px !important;
+}
+
+/*Dark*/
+
+.topics li:not(.nodark){
+    border-top: 1px inset #0a0a0a ! important;
+}
+
+.forumPost .post:not(.nodark){
+    border-top: 1px solid #0a0a0a ! important;
+}
+
+.pager_prevnext.block:not(.nodark){
+    border-color: #0a0a0a ! important;
+}
+
+.pager_prevnext:not(.nodark){
+    border-top: 1px solid #0a0a0a ! important;
+    border-bottom: 1px solid #0a0a0a ! important;
+    box-shadow: none ! important;
+}
+
+#post > .post:not(.nodark){
+    box-shadow: none ! important;
+}
+
+.container_groupAnnouncements li:not(.nodark),
+.container_groupActivities li:not(.nodark){
+    border-top: 1px solid #0a0a0a ! important;
+    padding: 10px 0 0 0 ! important;
+}
+
+.feed.myRecentTopics li.cf:not(.nodark),
+.feed.myRecentLikesShares li.cf:not(.nodark){
+    min-height: 55px !important;
+    border-top: 1px solid #0a0a0a !important;
+    margin-top: 0px !important;
+}
+
+.container_search .topic:not(.nodark){
+    border-color: #0a0a0a ! important;
+    margin: 0 ! important;
+}
+
+.container_search .container_topics:not(.nodark){
+    border-color: #0a0a0a !important;
+}
+ 
+.container_search .container_groups li:not(.nodark){
+    border-bottom: 1px solid #0a0a0a !important;
+    padding-bottom: 15px !important;
+}
+ 
+.container_search .container_users li:not(.nodark){
+    border-bottom: 1px solid #0a0a0a !important;
+    padding-bottom: 15px !important;
+}
+
+.dualColList.cf li.cf:not(.nodark){
+    border-bottom: 1px solid #0a0a0a !important;
+    padding-bottom: 5px !important;
+}
+
+#groupFollowers li.cf:not(.nodark){
+    border-bottom: 1px solid #0a0a0a !important;
+    margin: 0 !important;
+    padding: 10px 0 !important;
+}
+
+.newsArticle:not(.nodark){
+    border-bottom: 1px solid #0a0a0a ! important;
+}
+
+.groups_search_section li:not(.nodark),
+.news_search_section li:not(.nodark){
+    border-bottom: 1px solid #0a0a0a !important;
+    border-top: 1px solid #0a0a0a !important;
+    padding-bottom: 15px !important;
+    padding-top: 15px !important;
+}
+
+/*None*/
+
+.topics li:not(.nodark){
+    border-top: none ! important;
+}
+
+.forumPost .post:not(.nodark){
+    border-top: none ! important;
+}
+
+.pager_prevnext.block:not(.nodark){
+    border-color: none ! important;
+}
+
+.pager_prevnext:not(.nodark){
+    border-top: none ! important;
+    border-bottom: none ! important;
+    box-shadow: none ! important;
+}
+
+#post > .post:not(.nodark){
+    box-shadow: none ! important;
+}
+
+.container_groupAnnouncements li:not(.nodark),
+.container_groupActivities li:not(.nodark){
+    border-top: none ! important;
+    padding: 10px 0 0 0 ! important;
+}
+
+.feed.myRecentTopics li.cf:not(.nodark),
+.feed.myRecentLikesShares li.cf:not(.nodark){
+    min-height: 55px !important;
+    border-top: none !important;
+    margin-top: 0px !important;
+}
+
+.container_search .topic:not(.nodark){
+    border-color: none ! important;
+    margin: 0 ! important;
+}
+
+.container_search .container_topics:not(.nodark){
+    border-color: none !important;
+}
+ 
+.container_search .container_groups li:not(.nodark){
+    border-bottom: none !important;
+    padding-bottom: 15px !important;
+}
+ 
+.container_search .container_users li:not(.nodark){
+    border-bottom: none !important;
+    padding-bottom: 15px !important;
+}
+
+.dualColList.cf li.cf:not(.nodark){
+    border-bottom: none !important;
+    padding-bottom: 5px !important;
+}
+
+#groupFollowers li.cf:not(.nodark){
+    border-bottom: none !important;
+    margin: 0 !important;
+    padding: 10px 0 !important;
+}
+
+.newsArticle:not(.nodark){
+    border-bottom: none ! important;
+}
+
+.groups_search_section li:not(.nodark),
+.news_search_section li:not(.nodark){
+    border-bottom: none !important;
+    border-top: none !important;
+    padding-bottom: 15px !important;
+    padding-top: 15px !important;
+}
