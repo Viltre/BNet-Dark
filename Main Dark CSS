@@ -1,4 +1,3 @@
-
 @-moz-document domain("bungie.net"){
 body:not(.nodark),
 .body:not(.nodark),
@@ -491,7 +490,7 @@ a.btn_unpinAnnouncement:not(.nodark){
 }
 
 .mail .dropdown .link_back:not(.nodark){
-    background: none ! important;
+   opacity: 0.7 ! important;
 }
 
 .plainLabel:not(.nodark){
@@ -689,7 +688,7 @@ a.link_gray:not(.nodark):hover{
 }
 
 .AboutUs .page:not(.nodark){
-    background:  none ! important;
+    background: none ! important;
 }
 
 .Destiny .btn_preorder:not(.nodark){
@@ -879,7 +878,11 @@ a.link_gray:not(.nodark):hover{
     background-image: url("http://i.imgur.com/nb4sp7r.png") ! important;
 }
 
-.Nav_Top .nav_logo .submenu:not(.nodark){
+.Nav_Top .panel:not(.nodark){
+    box-shadow: none ! important;
+}
+
+.Nav_Top .nav_identity .dropdown:not(.nodark){
     box-shadow: 0 4px 8px -2px rgba(0, 0, 0, 0.4) ! important;
 }
 
@@ -968,7 +971,7 @@ li .actions a:not(.nodark):hover{
 .forumPost .btn_olderBlock:not(.nodark),
 .Groups .forumPost .btn_olderBlock:not(.nodark),
 .Groups .column.main .btn_olderBlock:not(.nodark){
-    line-height: 5px ! important;
+    line-height: 10px ! important;
 }
 
 /*all the options sections go between here expext the social media section*/
