@@ -1,18 +1,26 @@
 /*For 50px Avatars*/
 
+.forumPost article .content:not(.nodark){
+    padding-left: 80px ! important;
+}
+
+.forumPost .replies .content:not(.nodark){
+    padding-left: 55px ! important;
+}
+
 .forumPost .avatar:not(.nodark){
     left: 50px !important;
-    top: 8px !important;
+    top: 15px !important;
 }
 
 .post.subtopic .avatar:not(.nodark){
-    left: 22px !important;
-    top: 7px !important;
+    left: 25px !important;
+    top: 15px !important;
 }
 
 .replies .avatar:not(.nodark){
-    left: 22px !important;
-    top: 8px !important;
+    left: 25px !important;
+    top: 15px !important;
 }
 
 .topics .avatar:not(.nodark){
@@ -52,19 +60,27 @@
 
 /*For 55px avatars*/
 
+.forumPost article .content:not(.nodark){
+    padding-left: 80px ! important;
+}
+
+.forumPost .replies .content:not(.nodark){
+    padding-left: 55px ! important;
+}
+
 .forumPost .avatar:not(.nodark){
     left: 45px !important;
-    top: 8px !important;
+    top: 15px !important;
 }
 
 .post.subtopic .avatar:not(.nodark){
-    left: 17px !important;
-    top: 7px !important;
+    left: 20px !important;
+    top: 15px !important;
 }
 
 .replies .avatar:not(.nodark){
-    left: 17px !important;
-    top: 8px !important;
+    left: 20px !important;
+    top: 15px !important;
 }
 
 .topics .avatar:not(.nodark){
@@ -104,19 +120,27 @@
 
 /*For 60px avatars*/
 
+.forumPost article .content:not(.nodark){
+    padding-left: 76px ! important;
+}
+
+.forumPost .replies .content:not(.nodark){
+    padding-left: 51px ! important;
+}
+
 .forumPost .avatar:not(.nodark){
-    left: 40px !important;
-    top: 8px !important;
+    left: 35px !important;
+    top: 15px !important;
 }
 
 .post.subtopic .avatar:not(.nodark){
-    left: 7px !important;
-    top: 7px !important;
+    left: 10px !important;
+    top: 15px !important;
 }
 
 .replies .avatar:not(.nodark){
-    left: 7px !important;
-    top: 8px !important;
+    left: 10px !important;
+    top: 15px !important;
 }
 
 .topics .avatar:not(.nodark){
@@ -156,19 +180,27 @@
 
 /*For 65px avatars*/
 
+.forumPost article .content:not(.nodark){
+    padding-left: 81px ! important;
+}
+
+.forumPost .replies .content:not(.nodark){
+    padding-left: 56px ! important;
+}
+
 .forumPost .avatar:not(.nodark){
     left: 35px !important;
-    top: 8px !important;
+    top: 13px !important;
 }
 
 .post.subtopic .avatar:not(.nodark){
-    left: 6px !important;
-    top: 7px !important;
+    left: 10px !important;
+    top: 13px !important;
 }
 
 .replies .avatar:not(.nodark){
-    left: 6px !important;
-    top: 8px !important;
+    left: 10px !important;
+    top: 13px !important;
 }
 
 .topics .avatar:not(.nodark){
@@ -208,19 +240,27 @@
 
 /*For 70px avatars*/
 
+.forumPost article .content:not(.nodark){
+    padding-left: 86px ! important;
+}
+
+.forumPost .replies .content:not(.nodark){
+    padding-left: 61px ! important;
+}
+
 .forumPost .avatar:not(.nodark){
     left: 30px !important;
-    top: 8px !important;
+    top: 9px !important;
 }
 
 .post.subtopic .avatar:not(.nodark){
     left: 5px !important;
-    top: 7px !important;
+    top: 9px !important;
 }
 
 .replies .avatar:not(.nodark){
     left: 5px !important;
-    top: 8px !important;
+    top: 9px !important;
 }
 
 .topics .avatar:not(.nodark){
